@@ -1,9 +1,9 @@
 // TUGAS 2
 
-const mtk = 5;
-const bahasaIndonesia = 190;
-const bahasaInggris = 125;
-const ipa = 143;
+const mtk = 180;
+const bahasaIndonesia = 80;
+const bahasaInggris = 80;
+const ipa = 80;
 let grade = '';
 const average = (mtk+bahasaIndonesia+bahasaInggris+ipa)/4;
 
@@ -17,7 +17,7 @@ if(average >= 90 && average <= 100) {
     grade = 'D';
 } else if(average >= 0 && average <= 59) {
     grade = 'E';
-} else {grade = undefined}
+} else {grade = 'Cek kembali nilai!'}
 
 console.log(`Rata-rata = ${average}
 Grade= ${grade}`);

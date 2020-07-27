@@ -15,6 +15,7 @@ let data = {
     wewbsite: 'hildegard.org'
 }
 
+// TUGAS A
 let newData = {
     ...data,
     name: 'Arqi Alfaritsi',
@@ -22,9 +23,12 @@ let newData = {
     hobby: ['bermain alat musik', 'badminton']
 }
 
-// TUGAS A
-console.log(newData);
+
+// console.log(newData);
 
 // TUGAS B
-const {address: {street, city}} = newData;
+
+// const {address: {street, city}} = newData;
+
+const {street, city} = newData.address;
 console.log(`Menurut data yang ada, dia tinggal di jalan ${street} yang berada di kota ${city}`);
